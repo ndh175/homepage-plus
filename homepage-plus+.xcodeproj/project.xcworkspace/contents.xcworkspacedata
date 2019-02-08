@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:homepage-plus.xcodeproj">
+      location = "self:/Users/nickholbrook/Documents/GitHub/homepage-plus/homepage-plus+.xcodeproj">
    </FileRef>
 </Workspace>

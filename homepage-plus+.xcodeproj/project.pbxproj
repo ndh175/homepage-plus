@@ -62,7 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A3468E8220DFF130017D6FC /* homepage-plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homepage-plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3468E8220DFF130017D6FC /* HomePage+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomePage+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3468EB220DFF130017D6FC /* homepage_plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homepage_plus.entitlements; sourceTree = "<group>"; };
 		4A3468ED220DFF130017D6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A3468F0220DFF130017D6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +84,7 @@
 		4A346921220DFF150017D6FC /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		4A346923220DFF150017D6FC /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		4A346925220DFF150017D6FC /* homepage_plus_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homepage_plus_Extension.entitlements; sourceTree = "<group>"; };
+		4A346935220E01CE0017D6FC /* homepage-plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "homepage-plus.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +135,7 @@
 		4A3468E9220DFF130017D6FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A3468E8220DFF130017D6FC /* homepage-plus.app */,
+				4A3468E8220DFF130017D6FC /* HomePage+.app */,
 				4A3468FB220DFF150017D6FC /* homepage-plusTests.xctest */,
 				4A346906220DFF150017D6FC /* homepage-plusUITests.xctest */,
 				4A346911220DFF150017D6FC /* homepage-plus Extension.appex */,
@@ -145,6 +146,7 @@
 		4A3468EA220DFF130017D6FC /* homepage-plus */ = {
 			isa = PBXGroup;
 			children = (
+				4A346935220E01CE0017D6FC /* homepage-plus.entitlements */,
 				4A3468EB220DFF130017D6FC /* homepage_plus.entitlements */,
 				4A3468ED220DFF130017D6FC /* AppDelegate.swift */,
 				4A3468EF220DFF130017D6FC /* Main.storyboard */,
@@ -214,7 +216,7 @@
 			);
 			name = "homepage-plus";
 			productName = "homepage-plus";
-			productReference = 4A3468E8220DFF130017D6FC /* homepage-plus.app */;
+			productReference = 4A3468E8220DFF130017D6FC /* HomePage+.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4A3468FA220DFF150017D6FC /* homepage-plusTests */ = {
@@ -282,6 +284,11 @@
 				TargetAttributes = {
 					4A3468E7220DFF130017D6FC = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					4A3468FA220DFF150017D6FC = {
 						CreatedOnToolsVersion = 10.1;
@@ -296,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A3468E3220DFF130017D6FC /* Build configuration list for PBXProject "homepage-plus" */;
+			buildConfigurationList = 4A3468E3220DFF130017D6FC /* Build configuration list for PBXProject "homepage-plus+" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -587,7 +594,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "homepage-plus/homepage_plus.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "homepage-plus/homepage-plus.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = N985FFVN3Q;
@@ -597,7 +604,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickholbrook.homepage-plus";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "HomePage+";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -607,7 +614,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "homepage-plus/homepage_plus.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "homepage-plus/homepage-plus.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = N985FFVN3Q;
@@ -617,7 +624,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickholbrook.homepage-plus";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "HomePage+";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -707,7 +714,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A3468E3220DFF130017D6FC /* Build configuration list for PBXProject "homepage-plus" */ = {
+		4A3468E3220DFF130017D6FC /* Build configuration list for PBXProject "homepage-plus+" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A346926220DFF150017D6FC /* Debug */,

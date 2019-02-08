@@ -15,7 +15,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "homepage-plus";
+        self.appNameLabel.stringValue = "HomePage+";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
