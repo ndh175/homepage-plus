@@ -21,6 +21,7 @@
 		4A34691F220DFF150017D6FC /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A34691D220DFF150017D6FC /* SafariExtensionViewController.xib */; };
 		4A346922220DFF150017D6FC /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4A346921220DFF150017D6FC /* script.js */; };
 		4A346924220DFF150017D6FC /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A346923220DFF150017D6FC /* ToolbarItemIcon.pdf */; };
+		4A4597DD220EBEBA000D4C39 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4A4597DC220EBEBA000D4C39 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		4A346923220DFF150017D6FC /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		4A346925220DFF150017D6FC /* homepage_plus_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homepage_plus_Extension.entitlements; sourceTree = "<group>"; };
 		4A346935220E01CE0017D6FC /* homepage-plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "homepage-plus.entitlements"; sourceTree = "<group>"; };
+		4A4597DC220EBEBA000D4C39 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		4A346918220DFF150017D6FC /* homepage-plus Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4A4597DC220EBEBA000D4C39 /* style.css */,
 				4A346919220DFF150017D6FC /* SafariExtensionHandler.swift */,
 				4A34691B220DFF150017D6FC /* SafariExtensionViewController.swift */,
 				4A34691D220DFF150017D6FC /* SafariExtensionViewController.xib */,
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3468EC220DFF130017D6FC /* homepage_plus.entitlements in Resources */,
+				4A4597DD220EBEBA000D4C39 /* style.css in Resources */,
 				4A3468F5220DFF140017D6FC /* Assets.xcassets in Resources */,
 				4A3468F1220DFF130017D6FC /* Main.storyboard in Resources */,
 			);
